@@ -1,0 +1,1 @@
+export { default as runBuddy } from './02-run-buddy.jpg';

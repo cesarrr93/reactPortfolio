@@ -32,7 +32,7 @@ function Navbar() {
         <nav className='navbar'>
             <Link to='/' 
             className="navbar-logo">
-                CESAR MARTINEZ
+                CESAR MARTINEZ <i class='fab fa-firstdraft' />
             </Link>
             <div className='menu-icon' onClick={handleClick}>
                 <i className={click ? 'fas fa-times' : 'fas fa-bars'}/>
@@ -53,7 +53,7 @@ function Navbar() {
                     {dropdown && <Dropdown/>}
                 </li>
                 <li className='nav-item'>
-                    <Link to='/contact-me' className='nav-links' onClick={closeMobileMenu}>
+                    <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
                         Contact me
                     </Link>
                 </li>

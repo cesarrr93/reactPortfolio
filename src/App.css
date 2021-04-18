@@ -4,3 +4,10 @@
   margin: 0;
   font-family: 'PT Sans', sans-serif;
 }
+.about, .portfolio, .contact, .resume {
+  display: flex;
+  height: 90vh;
+  align-items: start;
+  justify-content: start;
+  font-size: 3rem;
+}
